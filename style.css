@@ -7,9 +7,22 @@ body{
     margin:0;
 }
 
-h2 {
-    font-family:'Garamond', Courier, monospace;
+.dancing-script-dancing> {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+h1 {
+    font-family:'Dancing Script', Courier, monospace;
     color: #9375b8;
+  }
+
+h2 {
+    font-family:'Dancing Script', Courier, monospace;
+    color: #9375b8;
+    font-size:42px;
   }
 
 img {
@@ -33,14 +46,8 @@ img {
   }
 
   .button:hover {
-    background-color:#002ead;
+    background-color:#503a6b;
     transition: 0.7s;
-}
-
- .button:focus {
-    outline-color: transparent;
-    outline-style:solid;
-    box-shadow: 0 0 0 4px #5a01a7;
 }
 
 .container{
@@ -133,7 +140,7 @@ img {
     box-sizing: border-box;
     text-align:center;
     color:#9375b8;
-    background-color: #f3f2f2;
+    background-color: #fff;
     border-radius: 15px;
 }
 
@@ -147,8 +154,8 @@ img {
 }
 
 #main-footer{
-    background: #9375b8;
-    color:#fff;
+    background-color:#f3f2f2;
+    color:#9375b8;
     text-align: center;
     padding:20px;
     margin-top:40px;
@@ -166,7 +173,11 @@ img {
     }
 }
 body {
-    background-image: url("../images/bg.gif");
+    background-image: url("../images/pattern 352.gif");
     background-repeat: repeat;
     background-attachment:fixed;
   }
+
+// <uniquifier>: Use a unique and descriptive class name
+// <weight>: Use a value from 400 to 700
+
